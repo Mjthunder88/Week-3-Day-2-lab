@@ -8,12 +8,14 @@ header {
     width: 150px;
     height: 1000px;
     background-color: lightgrey;
+    z-index: 2;
 }
 
 .right {
     width: 150px;
     height: 1000px;
     background-color: lightgrey;
+    z-index: 2;
 }
 
 section {
@@ -24,6 +26,9 @@ section {
 }
 
 footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
     background-color: black;
     width: 100vw;
     height: 150px;
