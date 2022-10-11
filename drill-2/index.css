@@ -1,0 +1,74 @@
+body {
+    width: 99vw;
+    height: 100vh;
+}
+.top {
+    width: 100vw;
+    height: 200px;
+    border: solid black 5px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-one {
+    background-color:blueviolet;
+    width: 50px;
+    height: 150px;
+}
+
+.box-two {
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    margin-left: 40px;
+}
+
+.box-three {
+    background-color: rgb(143, 218, 245);
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+/* ----------------------------------------------------- */
+.mid {
+    width: 100vw;
+    height: 300px;
+    margin-top: 30px;
+    border: dotted black 5px;    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-four {
+    height: 200px;
+    width: 1300px;
+    background-color: rgb(249, 249, 167);
+    box-shadow: 10px 10px 5px rgb(103, 102, 102)
+}
+
+.bot {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(6, 6, 172);
+    font-size: 40px;
+    box-shadow: 3px 3px 3px 3px grey;
+    margin-bottom: 20px;
+    
+}
+
+.bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.letters {
+    letter-spacing: 8px;
+}

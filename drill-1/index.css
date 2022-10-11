@@ -1,0 +1,31 @@
+header {
+   width: 99vw;
+   height: 100px; 
+   background-color: darkgray;
+}
+
+.left {
+    width: 150px;
+    height: 1000px;
+    background-color: lightgrey;
+}
+
+.right {
+    width: 150px;
+    height: 1000px;
+    background-color: lightgrey;
+}
+
+section {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: black;
+    width: 100vw;
+    height: 150px;
+}
+
